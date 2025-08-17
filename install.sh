@@ -75,7 +75,7 @@ install_dependencies() {
         curl wget sudo ed
         iproute2 iptables
         python3 python3-pip python3-venv
-        jq
+        jq git
     )
 
     echo -e "${GREEN}Updating package lists...${NC}"
